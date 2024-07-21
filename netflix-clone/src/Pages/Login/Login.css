@@ -1,0 +1,76 @@
+.Login{
+    height: 100vh;
+    background-image:linear-gradient(#0000007e,#0000007e),url(/background_banner.jpg);
+    padding: 20px 8%;
+}
+.Login-Logo{
+    width: 150px;
+}
+.Login-Form{
+    width: 100%;
+    max-width: 450px;
+    background: rgba( 0, 0, 0,0.75);
+    border-radius: 4px;
+    padding: 60px;
+    margin: auto;
+}
+.Login-Form h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+.Login-Form input{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    margin: 12px 0px;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding:16px 20px;
+    font-weight: 400px;
+}
+.Login-Form input:-moz-placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Login-Form button{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    color: white;
+    background-color: #e50914;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+}.form-Help{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.remember input{
+    height: 18px;
+    width: 18px;
+}
+.Form-Switch{
+    margin-top: 40px;
+    color: #737373;
+
+}
+.Form-Switch span{
+        margin-left: 6px;
+        font-weight: 500px;
+        color: #fff;
+        cursor: pointer;
+}
